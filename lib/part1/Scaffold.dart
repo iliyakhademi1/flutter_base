@@ -41,6 +41,8 @@ class ScaffoldWidget extends StatelessWidget {
       ),
 
       floatingActionButtonLocation: FloatingActionButtonLocation.centerDocked,
+   body: Center(child: Text('ya ali')),
+
     );
   }
 }
