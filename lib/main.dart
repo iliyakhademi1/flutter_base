@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_base/part1/Scaffold.dart';
 import 'package:flutter_base/part2/Container.dart';
+import 'package:flutter_base/part3/SizedBox.dart';
 
 void main() {
   runApp(MyApp());
@@ -12,7 +13,8 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
         debugShowCheckedModeBanner: false, 
         // home: ScaffoldWidget()
-        home: ContainerWidget(),
+        // home: ContainerWidget(),
+        home: SizedBoxWidget(),
         );
   }
 }
