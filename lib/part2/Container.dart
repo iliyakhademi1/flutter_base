@@ -12,11 +12,13 @@ class ContainerWidget extends StatelessWidget {
       body: Center(
         child: Container(
         // color: Colors.red,
+constraints: BoxConstraints(maxWidth: 700,maxHeight: 400),
 
-
-        width:400,
-        height: 400,
-        margin: EdgeInsets.symmetric(horizontal: 100,vertical: 100),
+        // width:400,
+        // height: 400,
+        width: MediaQuery.of(context).size.width,
+         height: MediaQuery.of(context).size.height,
+        // margin: EdgeInsets.symmetric(horizontal: 100,vertical: 100),
 
         padding: EdgeInsets.only(top: 40,left: 40),
         child: Text('llllllllllllllllllllllllllll'),
