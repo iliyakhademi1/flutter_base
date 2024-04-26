@@ -3,6 +3,8 @@ import 'package:flutter_base/part1/Scaffold.dart';
 import 'package:flutter_base/part2/Container.dart';
 import 'package:flutter_base/part3/SizedBox.dart';
 
+import 'part4/Padding.dart';
+
 void main() {
   runApp(MyApp());
 }
@@ -14,7 +16,8 @@ class MyApp extends StatelessWidget {
         debugShowCheckedModeBanner: false, 
         // home: ScaffoldWidget()
         // home: ContainerWidget(),
-        home: SizedBoxWidget(),
+        // home: SizedBoxWidget(),
+        home: PaddingWidget(),
         );
   }
 }
