@@ -3,6 +3,9 @@ import 'package:flutter_base/part1/Scaffold.dart';
 import 'package:flutter_base/part2/Container.dart';
 import 'package:flutter_base/part3/SizedBox.dart';
 import 'package:flutter_base/part5/Text.dart';
+import 'package:flutter_base/part6/Column.dart';
+import 'package:flutter_base/part6/Row.dart';
+import 'package:flutter_base/part6/Row_and_Column.dart';
 
 import 'part4/Padding.dart';
 
@@ -19,7 +22,10 @@ class MyApp extends StatelessWidget {
         // home: ContainerWidget(),
         // home: SizedBoxWidget(),
         // home: PaddingWidget(),
-        home: TextWidget(),
+        // home: TextWidget(),
+        // home: ColumnWidget(),
+        // home: RowWidget(),
+        home: RowAndColumnWidget(),
         );
   }
 }
