@@ -6,6 +6,7 @@ import 'package:flutter_base/part11/AssetImage.dart';
 import 'package:flutter_base/part11/Image.asset.dart';
 import 'package:flutter_base/part11/Image.network.dart';
 import 'package:flutter_base/part11/NetworkImage.dart';
+import 'package:flutter_base/part12/TextField.dart';
 import 'package:flutter_base/part2/Container.dart';
 import 'package:flutter_base/part3/SizedBox.dart';
 import 'package:flutter_base/part5/Text.dart';
@@ -45,7 +46,9 @@ class MyApp extends StatelessWidget {
       // home: AssetImageClass(),
       // home: NetWorkImageClass(),
       // home: ImageAssetWidget(),
-      home: ImageNetWorkWidget(),
+      // home: ImageNetWorkWidget(),
+      home: TextFieldWidget(),
+      
     );
   }
 }
